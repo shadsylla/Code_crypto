@@ -45,7 +45,7 @@ int main( int argc, char *argv[]) {
 
  
 
- // print the info of every position 0 in every 
+ // print the info of every position. From zero to N. 
 
 
 //printf(" first:%c", cipher[0]); //printf(" first:%c", key[0]);
