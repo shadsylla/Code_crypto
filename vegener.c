@@ -37,10 +37,6 @@ char 	user_secret_message[30];
 
 int main( int argc, char *argv[]) {
  
- // print the info of every position. From zero to N. 
-
-
- printf(" this: %d, the last: %d\n", cipher_numbers[0], cipher_numbers[7]); 
 
  	int	idx = 0;
 
@@ -55,7 +51,6 @@ int main( int argc, char *argv[]) {
 	cipher_n	=	cipher_numbers[idx];
 
         // connect the keys
-
 	key_n		=	key_numbers[idx]; 
 		
 	// cipher_n "19" -  number_key[0] 	
@@ -101,5 +96,3 @@ int main( int argc, char *argv[]) {
 return 0; 
 
 };
-
- 
