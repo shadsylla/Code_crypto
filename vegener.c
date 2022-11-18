@@ -1,10 +1,5 @@
- #include <stdio.h>
+#include <stdio.h>
 #include <ctype.h>
-
-
-
-
-
 
 
 /*Setting up the variables holding the characters */
@@ -41,14 +36,10 @@ char 	user_secret_message[30];
 
 
 int main( int argc, char *argv[]) {
-
-
  
-
  // print the info of every position. From zero to N. 
 
 
-//printf(" first:%c", cipher[0]); //printf(" first:%c", key[0]);
  printf(" this: %d, the last: %d\n", cipher_numbers[0], cipher_numbers[7]); 
 
  	int	idx = 0;
@@ -67,10 +58,10 @@ int main( int argc, char *argv[]) {
 
 	key_n		=	key_numbers[idx]; 
 		
-	// cipher_n "19" -  number_key[0] 
-		
+	// cipher_n "19" -  number_key[0] 	
 	// The main equation: cipher_numbers[idx]  minus key_numbers[idx] 
 	int clear_message_number	=	   cipher_n	-	key_n; 
+		
 	/* if the clear_message = message_number at position index, 	
 		then print the letter from the secret_message[ idx] 
 	*/	 
@@ -107,12 +98,6 @@ int main( int argc, char *argv[]) {
 					
 		++q; 
 	}
-
-
-
-
-
-
 return 0; 
 
 };
